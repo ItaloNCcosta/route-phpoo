@@ -1,0 +1,17 @@
+{
+  "name": "it/routes-phpoo",
+  "authors": [
+    {
+      "name": "Italo Nogueira Coutinho Costa",
+      "email": "ItaloNCcosta@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "app\\": "app"
+    },
+    "files":[
+    ]
+  }
+}
