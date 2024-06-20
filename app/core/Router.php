@@ -4,9 +4,9 @@ namespace app\core;
 
 class Router
 {
-  public static function run ()
+  public static function run()
   {
-    $routeRegistered = new RoutersFilters();    
+    $routeRegistered = new RoutersFilters();
     $router = $routeRegistered->get();
 
     dd($router);
