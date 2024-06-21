@@ -27,6 +27,9 @@ class Controller
       throw new Exception("The method {$method} does not exist in the controller {$controllerNamespace}");
     }
 
-    $controller->$method();
+    $params = new ControllerParams;
+    $params = $params->get($router);
+
+    $controller->$method($params);
   }
 }
